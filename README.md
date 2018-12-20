@@ -53,3 +53,12 @@ And ofcourse, there is no need to keep opening the extension. Just turn it on, a
 6. Done! You're now all set to use BassaExtension ^.^
 
 --- imagination by RohanCode ---
+## Collaboration
+
+For further development and help, I'll be collaborating with mentors and my friends:
+
+1. Łukasz Myśliwiec
+2. Jakub Mularski
+3. Anurag Parida
+
+--> Special thanks to Gaurav Pandey for the Bassa's new Logo ;)
