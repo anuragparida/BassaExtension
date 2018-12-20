@@ -61,4 +61,4 @@ For further development and help, I'll be collaborating with mentors and my frie
 2. Jakub Mularski
 3. Anurag Parida
 
---> Special thanks to Gaurav Pandey for the Bassa's new Logo ;)
+--> Special thanks to Gaurav Pandey for an amazing Bassa-mobile's new Logo ;)
