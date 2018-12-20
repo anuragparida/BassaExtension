@@ -26,6 +26,28 @@ And ofcourse, there is no need to keep opening the extension. Just turn it on, a
 
 ![time to download 1](https://user-images.githubusercontent.com/29266591/50282199-fdf7b700-0477-11e9-95c8-c78bd025f5f1.png)
 
-## Installation
+## Installation on Chrome
 1. Get root Directories: ```git clone https://github.com/rohancl/BassaExtension/```
-2. 
+2. Open Chrome and type in ```chrome://extensions/``` into the URL, Hit Enter.
+3. Look at the top-right corner, You should see a Developer option switch there, Turn it on.
+
+![step](https://user-images.githubusercontent.com/29266591/50282962-6fd10000-047a-11e9-868a-dcd490777298.png)
+
+4. After turning on the developer options, You'll see a new sub-header, Hit "Load Unpacked"
+
+![step1](https://user-images.githubusercontent.com/29266591/50283029-ae66ba80-047a-11e9-998c-1b036c5e8033.png)
+
+5. Then locate to the root project file: "Bassa Extension", Hit Open.
+6. Done! You're now all set to use BassaExtension ^.^
+ 
+
+ 
+## Installation on Firefox
+1. Get root Directories: ```git clone https://github.com/rohancl/BassaExtension/```
+2. Open Firefox and type in ```about:debugging``` into the URL, Hit Enter.
+3. In the right, Hit "Load-Temporary Add-On..."
+
+![step3](https://user-images.githubusercontent.com/29266591/50283278-68f6bd00-047b-11e9-858b-e463fa7f9651.png)
+
+4. Then locate to the root project file: "Bassa Extension", Hit Open.
+6. Done! You're now all set to use BassaExtension ^.^
