@@ -1,7 +1,7 @@
 {
  "manifest_version": 2,
  "name": "Bassa Extension",
- "description": " and the ability to watch trailers.",
+ "description": "detecting traffic through Bassa's algorithms on a browser extension and notify user of an appropriate 'Download Time' in accordance with the Server Traffic",
  "version": "1",
  "author": "Rohan Singh",
 "browser_action": {
