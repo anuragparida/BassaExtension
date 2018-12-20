@@ -51,3 +51,5 @@ And ofcourse, there is no need to keep opening the extension. Just turn it on, a
 
 4. Then locate to the root project file: "Bassa Extension", Hit Open.
 6. Done! You're now all set to use BassaExtension ^.^
+
+--- imagination by RohanCode ---
