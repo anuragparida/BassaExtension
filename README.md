@@ -21,6 +21,7 @@ As mentioned above, an empty <b>Traffic-Time</b> graph would look somewhat like 
 In the following graph, a <b>bar like notation</b> would be present which would indicate the current Internet's bandwidth or Traffic. So you can just look at the bar on the <b>Traffic-Time</b> graph and know exactly when you have to download something.
 
 ![webp net-gifmaker 1](https://user-images.githubusercontent.com/29266591/50280611-faadfc80-0472-11e9-8684-01a197d2c821.gif)
+
 And ofcourse, there is no need to keep opening the extension. Just turn it on, and you'll automatically be notified of the appropriate download time. We'll notice the graph on your behalf ;)
 
 ![time to download](https://user-images.githubusercontent.com/29266591/50281074-5dec5e80-0474-11e9-8bc1-b510038104e4.png)
