@@ -24,7 +24,7 @@ In the following graph, a <b>bar like notation</b> would be present which would 
 
 And ofcourse, there is no need to keep opening the extension. Just turn it on, and you'll automatically be notified of the appropriate download time. We'll notice the graph on your behalf ;)
 
-![time to download](https://user-images.githubusercontent.com/29266591/50281074-5dec5e80-0474-11e9-8bc1-b510038104e4.png)
+![time to download](https://user-images.githubusercontent.com/29266591/50282110-ba04b200-0477-11e9-87b3-5acb7c10ac2a.png)
 
 ## Installation
 1. Get root Directories: ```git clone https://github.com/rohancl/BassaExtension/```
