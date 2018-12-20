@@ -1,0 +1,62 @@
+/*
+	This is styling for the popup
+*/
+@import url('https://fonts.googleapis.com/css?family=Lato');
+body {
+	width:400px;
+	height:500px;
+	background-color:#fff;
+	font-family:lato;
+}
+
+p {
+	font-size:1.3em;
+	font-weight:400;
+}
+
+.heading {
+	color:#E75753;
+	font-size:1.7rem;
+	}
+
+.pulse-button
+{
+  width:20px;
+  margin-right:18px;
+  margin-left:16px;
+  height: 20px;
+  border: 2px solid #E75753;
+  border-radius: 50%;
+  
+  background:rgba(231,87,83,1);
+  text-align: center;
+  color: #E75753;
+  box-shadow:  0 0 0 rgba(231,87,83,0.7);
+  animation: pulse 1.5s infinite cubic-bezier(0.66,0,0,1);
+  transition: 0.5s;
+}
+
+@keyframes pulse
+{
+  100%
+  {
+     box-shadow:  0 0 0 15px rgba(231,87,83,0);
+
+  }
+}
+.pulse-button:hover
+{
+  background-color:#E75753;
+  color: #fff;
+  cursor:pointer;
+  transition: 0.5s;  
+}
+.top-element {
+	display:inline-block;
+}
+
+.graph {
+	background:url("graph.gif");
+	width:400px;
+	height:200px;
+}
