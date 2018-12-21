@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="popup.js"></script>
     <link rel="stylesheet" type="text/css" href="popup.css">
 	<title>Hello Bassa!</title>
 </head>
@@ -16,7 +18,42 @@
 	</div>
 </div>
 <hr>
-<p>Real-Time Traffic to Time graph using Bassa's algorithms...</p>
 <div class="graph">
 </div>
+
+<div class="information">
+	<div class="info left sidebyside">
+		<p>Current Traffic Status:</p>
+		<p>Current Bandwidth Efficiency:</p>
+		<p>Last Optimal Time:</p>
+		<span class="reminder"><p>Remind me for an urgent download</p></span>
+
+	</div>
+	<div class="info right sidebyside">
+		<span class="status_parent"><p class="status">MODERATE</p></span>
+		<p>46.17%</p>
+		<p>7:00PM, Dec 12</p>
+		<form action="#" method="POST">
+
+     <div class="switch">
+      <input id="switch-1" type="checkbox" class="switch-input">
+      <label for="switch-1" class="switch-label">Switch</label>
+
+    </div>
+</form>
+	</div>
+
+
+<div id="hidden_fields">
+      <div class="group sidebyside"> 
+      	<input type="text" id="hidden_field" name="hidden" required>
+      	<span class="highlight"></span>
+      	<span class="bar"></span>
+      	<label class="name">Set desired efficiency rate (In %)</label>
+    </div>
+    <div class="sidebyside">
+    	<button class="setbutton" action="submit">Set</button>
+    </div>
+</div>
+
 </body>
