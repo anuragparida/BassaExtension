@@ -33,10 +33,25 @@ And ofcourse, there is no need to keep opening the extension. Just turn it on, a
  
 <i>Let's break the above picture into snaps of different functionalities to understand better...</i> <br>
 <b>Here are the functionalities along with their snaps of these elements in the above picture (From Top to Bottom):</b><br>
+
+![demo1](https://user-images.githubusercontent.com/29266591/50321894-fe846200-04f8-11e9-85ab-5355dc893bac.png)
+
 1. <b>Traffic graph with respect to time</b>:<br> tells about the current traffic on graph with markings<br><br>
+
+![demo5](https://user-images.githubusercontent.com/29266591/50321899-03491600-04f9-11e9-82e1-621d72b93056.png)
+
 2. <b>Current Traffic Status</b>:<br> A much user-friendly way of expressing Traffic would be giving it a "Traffic-tag" which expresses the intensity of the traffic, such as (HIGH, MODERATE, LOW)<br><br>
+
+![demo4](https://user-images.githubusercontent.com/29266591/50321900-03491600-04f9-11e9-8970-096271ce5452.png)
+
 3. <b>Current Bandwidth Efficiency</b>:<br> Bandwidth is the data-transfer rate, So Here BassaExtension tells about the data-transfer (or downloading) efficiency in percentage.<br><br>
+
+![demo2](https://user-images.githubusercontent.com/29266591/50321901-03e1ac80-04f9-11e9-8d4b-8e66893ba906.png)
+
 4. <b>Last Optimal Time</b>:<br> Informs the user of the last optimal download time, Basically the last time when the bandwidth efficiency was good enough to make downloads<br><br>
+
+![demo6](https://user-images.githubusercontent.com/29266591/50321898-03491600-04f9-11e9-90a4-febff5fe8ff6.png)
+
 5. <b>Remind me for an urgent download</b>:<br> After turning this ON, BassaExtension would ask for the user's desired Bandwidth efficiency and notify the user whenever the internet's bandwidth efficiency becomes more than the userinput. What this means is that If I urgently want to download something and I need bandwidth efficiency to make the download faster. Then I would simply type in my desired Bandwidth (say 80%).Then whenever the low internet's traffic (thus higher bandwidth efficiency. In this case, more than 80% which is the userinput) is noticed, BassaExtension would automatically notify the user.</b><br><br>
 ## Installation on Chrome
 1. Get root Directories: ```git clone https://github.com/rohancl/BassaExtension/```
