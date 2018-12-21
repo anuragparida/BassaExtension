@@ -56,8 +56,8 @@ And ofcourse, there is no need to keep opening the extension. Just turn it on, a
 
 For further development and help, I'll be collaborating with mentors and my friends:
 
-<b>1. Łukasz Myśliwiec</b>
-<b>2. Jakub Mularski</b>
+<b>1. Łukasz Myśliwiec</b><br>
+<b>2. Jakub Mularski</b><br>
 <b>3. Anurag Parida</b>
 
 --> Special thanks to Gaurav Pandey for an amazing Bassa-mobile's new Logo ;)
