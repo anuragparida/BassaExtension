@@ -6,7 +6,7 @@ Currently in progress. This is a demo of a potential project for SCoRe Labs with
 Making the best use of internet's bandwidth by detecting traffic through Bassa's algorithms on a browser extension
 
 ## What is BassaExtension?
-BassaExtension is an add on feature inspired by [Bassa - A SCoRe's repository](https://github.com/scorelab/Bassa) which can be installed on browsers with just a few clicks. So you no longer have to specifically setup, install and open an application if you're just looking for an appropriate time to complete your downloads.
+BassaExtension is a chrome add on feature inspired by [Bassa - A SCoRe's repository](https://github.com/scorelab/Bassa) which can be installed on browsers with just a few clicks. So you no longer have to specifically setup, install and open an application if you're just looking for an appropriate time to complete your downloads.
 
 ![webp net-resizeimage](https://user-images.githubusercontent.com/29266591/50281689-4c0bbb00-0476-11e9-8d99-8cee7bd3bffe.png)
 
