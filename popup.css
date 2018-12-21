@@ -1,7 +1,5 @@
-/*
-	This is styling for the popup
-*/
 @import url('https://fonts.googleapis.com/css?family=Lato');
+
 body {
 	width:400px;
 	height:500px;
@@ -9,18 +7,12 @@ body {
 	font-family:lato;
 }
 
-p {
-	font-size:1.3em;
-	font-weight:400;
-}
-
 .heading {
 	color:#E75753;
 	font-size:1.7rem;
-	}
+}
 
-.pulse-button
-{
+.pulse-button {
   width:20px;
   margin-right:18px;
   margin-left:16px;
@@ -44,13 +36,13 @@ p {
 
   }
 }
-.pulse-button:hover
-{
+.pulse-button:hover {
   background-color:#E75753;
   color: #fff;
   cursor:pointer;
   transition: 0.5s;  
 }
+
 .top-element {
 	display:inline-block;
 }
@@ -59,4 +51,218 @@ p {
 	background:url("demograph.gif");
 	width:400px;
 	height:200px;
+}
+
+.status {
+  background-color:#8ff442;
+  padding:2px;
+  color:#fff;
+  font-weight: bolder;
+  font-size:1em;
+  border-radius:5px;
+  width: 70px;
+}
+
+.status_parent {
+text-align: center;
+}
+
+.info {
+  font-color:grey;
+  color:#333;
+  font-weight: bolder;
+}
+
+.right {
+  float:right;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+}
+
+.switch-input {
+  display: none;
+}
+
+.switch-label {
+  display: block;
+  width: 32px;
+  height: 17px;
+  text-indent: -150%;
+  clip: rect(0 0 0 0);
+  color: transparent;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+
+}
+
+.switch-label:before,
+.switch-label:after {
+  content: "";
+  display: block;
+  position: absolute;
+  cursor: pointer;
+}
+
+.switch-label:before {
+  width: 100%;
+  height: 100%;
+  background-color: #dedede;
+  border-radius: 9999em;
+  transition: background-color 0.25s ease;
+}
+
+.switch-label:after {
+  top: 0;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.45);
+  transition: left 0.25s ease;
+}
+
+.switch-input:checked + .switch-label:before {
+  background-color: #E75753;
+}
+
+.switch-input:checked + .switch-label:after {
+  left: 17px;
+}
+
+.reminder {
+  font-size:1.4em;
+  color:#E75753;
+}
+
+.rate {
+  font-weight: bolder;
+  font-size: 1.4em;
+  color:#333;
+}
+
+.sidebyside {
+  display: inline-block;
+}
+
+.efficiency {
+  margin-left:30px;
+  width: 80px;
+}
+
+.group { 
+  position:relative; 
+  margin-top:10px;
+}
+
+#hidden_field {
+  font-size:18px;
+  padding:10px 10px 10px 5px;
+  display:block;
+  width:285px;
+  border:none;
+  border-bottom:1px solid #E75753;
+}
+
+#hidden_field:focus { 
+  outline:none;
+}
+
+.name {
+  color:#999; 
+  font-size:18px;
+  font-weight:normal;
+  position:absolute;
+  pointer-events:none;
+  left:5px;
+  top:10px;
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+
+#hidden_field:focus ~ .name , #hidden_field:valid ~ .name {
+  top:-20px;
+  font-size:14px;
+  color:#E75753;
+}
+
+.bar {
+  position:relative;
+  display:block; width:300px; 
+}
+
+.bar:before, .bar:after {
+  content:'';
+  height:2px; 
+  width:0;
+  bottom:1px; 
+  position:absolute;
+  background:grey; 
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+
+.bar:before {
+  left:50%;
+}
+
+.bar:after {
+  right:50%; 
+}
+
+#hidden_field:focus ~ .bar:before, #hidden_field:focus ~ .bar:after {
+  width:50%;
+}
+
+.highlight {
+  position:absolute;
+  height:60%; 
+  width:100px; 
+  top:25%; 
+  left:0;
+  pointer-events:none;
+  opacity:0.5;
+}
+
+#hidden_field:focus ~ .highlight {
+  -webkit-animation:inputHighlighter 0.3s ease;
+  -moz-animation:inputHighlighter 0.3s ease;
+  animation:inputHighlighter 0.3s ease;
+}
+
+@-webkit-keyframes inputHighlighter {
+  from { background:#5264AE; }
+  to  { width:0; background:transparent; }
+}
+@-moz-keyframes inputHighlighter {
+  from { background:#5264AE; }
+  to  { width:0; background:transparent; }
+}
+@keyframes inputHighlighter {
+  from { background:#5264AE; }
+  to  { width:0; background:transparent; }
+}
+.setbutton {
+  background:rgba(0,0,0,0);
+  border:2px #E75753 solid;
+  width:80px;
+  border-radius: 3px;
+  height: 30px;
+  color:#E75753;
+  margin-left: 10px;
+}
+.setbutton:hover {
+  cursor: pointer;
+  color:#fff;
+  background-color: #E75753;
+}
+::selection  {
+  background-color: rgba(220,220,220,0.8);
 }
