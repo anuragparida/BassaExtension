@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 body {
-  width: 400px;
+  width: auto;
+  width:600px;
   background-color: #fff;
   font-family: 'Lato', sans-serif;
 }
@@ -9,6 +10,9 @@ body {
 .heading {
   color: #e75753;
   font-size: 1.7rem;
+}
+#chart {
+  width: 550px;
 }
 
 .pulse-button {
@@ -49,8 +53,7 @@ body {
   display: inline-block;
 }
 
-.graph {
-  background: url('demograph.gif');
+#chart {
   width: 400px;
   height: 200px;
 }
@@ -60,7 +63,7 @@ body {
   padding: 2px;
   color: #fff;
   font-weight: bolder;
-  font-size: 1em;
+  font-size: 0.8em;
   border-radius: 5px;
   width: 70px;
 }
