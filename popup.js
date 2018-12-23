@@ -60,7 +60,7 @@ var series =
 }
 
 var options = {
-  colors:['#F44336', '#E91E63', '#9C27B0'],
+ colors:['#F44336', '#E91E63', '#9C27B0'],
     chart: {
         height: 350,
         type: 'area',
