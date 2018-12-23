@@ -49,12 +49,12 @@ var series =
       74
     ],
     "time": [
-      "3 Minutes",
-      "2.5 Minutes",
-      "2 Minutes",
-      "1.5 Minutes",
-      "1 Minute",
-      "0.5 Minute"
+      "3 Min",
+      "2.5 Min",
+      "2 Min",
+      "1.5 Min",
+      "1 Min",
+      "0.5 Min"
     ]
   }
 }
