@@ -108,4 +108,15 @@ chart.render();
 
 });
 
+var opt = {
+type: "basic",
+ title:"My first popup with chrome", 
+ message:"this is pretty cool!", 
+ iconUrl: "icon.png"
+};
 
+chrome.notifications.create(opt, callback);
+
+function callback() {
+  console.log('popup done!');
+}
