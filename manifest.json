@@ -6,7 +6,7 @@
    "content_scripts": [
    {
      "matches": ["http://*/*"],
-     "js": ["jquery.js", "popup.js"]
+     "js": ["jquery.js", "popup.js", "apexcharts.min.js"]
    }
  ],
  "author": "Rohan Singh",
