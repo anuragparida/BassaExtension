@@ -90,7 +90,7 @@ var options = {
         type: 'string',
     },
     yaxis: {
-        opposite: false
+        opposite: true
     },
     legend: {
         horizontalAlign: 'left'
