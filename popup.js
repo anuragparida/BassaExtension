@@ -37,3 +37,70 @@ $(function() {
     }
   });
 });
+
+var series = 
+{
+  "monthDataSeries1": {
+    "bandwidthEfficiency": [
+      88,
+      42,
+      53,
+      81,
+      68,
+      74
+    ],
+    "time": [
+      "3 Minutes",
+      "2.5 Minutes",
+      "2 Minutes",
+      "1.5 Minutes",
+      "1 Minute",
+      "0.5 Minute"
+    ]
+  }
+}
+
+var options = {
+    chart: {
+        height: 350,
+        type: 'area',
+        zoom: {
+            enabled: false
+        }
+    },
+    dataLabels: {
+        enabled: false
+    },
+    stroke: {
+        curve: 'straight'
+    },
+    series: [{
+        name: "bandwidth efficiency (In %)",
+        data: series.monthDataSeries1.bandwidthEfficiency
+    }],
+    title: {
+        text: 'RealTime Traffic-Time graph',
+        align: 'left'
+    },
+    subtitle: {
+        text: 'Variation in bandwidth efficiency',
+        align: 'left'
+    },
+    labels: series.monthDataSeries1.time,
+    xaxis: {
+        type: 'string',
+    },
+    yaxis: {
+        opposite: false
+    },
+    legend: {
+        horizontalAlign: 'left'
+    }
+}
+
+var chart = new ApexCharts(
+    document.querySelector("#chart"),
+    options
+);
+
+chart.render();
