@@ -36,7 +36,6 @@ $(function() {
       // $("#hidden_field").val("");
     }
   });
-});
 
 var series = 
 {
@@ -104,3 +103,8 @@ var chart = new ApexCharts(
 );
 
 chart.render();
+
+
+});
+
+
