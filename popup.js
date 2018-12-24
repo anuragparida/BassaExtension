@@ -95,3 +95,13 @@ chrome.notifications.create(opt, callback);
 function callback() {
   console.log('popup done!');
 }
+  var n = noty({
+    text: 'NOTY - a jquery notification library!',
+    layout: "bottomRight",
+    animation: {
+        open: 'animated bounceInUp', // Animate.css class names
+        close: 'animated bounceOutRight', // Animate.css class names
+        easing: 'swing', // unavailable - no need
+        speed: 500 // unavailable - no need
+    }
+});
