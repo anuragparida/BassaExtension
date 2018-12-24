@@ -292,5 +292,9 @@ body {
 .noty_bar {
   background-color:#e75753;
   color:#fff;
+  width: 200px;
   font-family:lato;
+}
+.animated {
+  width:200px;
 }
