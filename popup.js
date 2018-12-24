@@ -112,7 +112,7 @@ var opt = {
 type: "basic",
  title:"My first popup with chrome", 
  message:"this is pretty cool!", 
- iconUrl: "icon.png"
+ iconUrl: "notificationIcon.png"
 };
 
 chrome.notifications.create(opt, callback);
