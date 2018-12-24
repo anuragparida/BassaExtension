@@ -96,12 +96,11 @@ function callback() {
   console.log('popup done!');
 }
   var n = noty({
-    text: 'NOTY - a jquery notification library!',
+    text: 'Target Successfully Set!',
     layout: "bottomRight",
     animation: {
-        open: 'animated bounceInUp', // Animate.css class names
-        close: 'animated bounceOutRight', // Animate.css class names
-        easing: 'swing', // unavailable - no need
-        speed: 500 // unavailable - no need
+      closeWith: ['click'],
+        open: 'animated bounceInUp', 
+        close: 'animated bounceOutRight', 
     }
 });
