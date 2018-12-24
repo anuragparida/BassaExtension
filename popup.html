@@ -1,64 +1,64 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<div class="custom-container"></div>
-	<link rel="stylesheet" type="text/css" href="popup.css">
-	<link rel="stylesheet" type="text/css" href="animate.css">
-	<script type="text/javascript" src="jquery.js"></script>
-	<script type="text/javascript" src="jquery.noty.packaged.min.js"></script>
-	<script type="text/javascript" src="apexcharts.min.js"></script>
-	<script type="text/javascript" src="popup.js"></script>
-	<title>Hello Bassa!</title>
-</head>
-<body>
-<div class="top">
-	<div class="top-element">
-		<div class="pulse-button">
-		</div>
-		
- 	</div>
-	<div class="top-element">
-		<h1 class="heading">Bassa Extension</h1>
-	</div>
-</div>
-<hr>
-<div id="chart">
-</div>
-
-<div class="information">
-	<div class="info left sidebyside">
-		<p>Current Traffic Status:</p>
-		<p>Current Bandwidth Efficiency:</p>
-		<p>Last Optimal Time:</p>
-		<span class="reminder"><p>Remind me for an urgent download</p></span>
-
-	</div>
-	<div class="info right sidebyside">
-		<span class="status_parent"><p class="status">MODERATE</p></span>
-		<p>46.17%</p>
-		<p>7:00PM, Dec 12</p>
-		<form action="#" method="POST">
-
-     <div class="switch">
-      <input id="switch-1" type="checkbox" class="switch-input">
-      <label for="switch-1" class="switch-label">Switch</label>
-
+  <head>
+    <div class="custom-container"></div>
+    <link rel="stylesheet" type="text/css" href="popup.css" />
+    <link rel="stylesheet" type="text/css" href="animate.css" />
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="jquery.noty.packaged.min.js"></script>
+    <script type="text/javascript" src="apexcharts.min.js"></script>
+    <script type="text/javascript" src="popup.js"></script>
+    <title>Hello Bassa!</title>
+  </head>
+  <body>
+    <div class="top">
+      <div class="top-element"><div class="pulse-button"></div></div>
+      <div class="top-element"><h1 class="heading">Bassa Extension</h1></div>
     </div>
-</form>
-	</div>
+    <hr />
+    <div id="chart"></div>
 
-
-<div id="hidden_fields">
-      <div class="group sidebyside"> 
-      	<input type="text" id="hidden_field" name="hidden" required>
-      	<span class="highlight"></span>
-      	<span class="bar"></span>
-      	<label class="name">Set desired efficiency rate (In %)</label>
+    <div>
+      <input type="text" id="download_txt"/>
+      <button id="download_btn">+</button>
     </div>
-    <div class="sidebyside">
-    	<button class="setbutton" action="submit">Set</button>
-    </div>
-    
-</div>
 
-</body>
+    <div class="information">
+      <div class="infoline">
+        <span class="infolineleft">Current Traffic Status:</span
+        ><span class="infolineright status">MODERATE</span>
+      </div>
+      <div class="infoline">
+        <span class="infolineleft status_parent"
+          >Current Bandwidth Efficiency:</span
+        >
+        <span class="infolineright">46.17%</span>
+      </div>
+      <div class="infoline">
+        <span class="infolineleft">Last Optimal Time:</span
+        ><span class="infolineright">7:00PM, Dec 12</span>
+      </div>
+
+      <div class="infoline">
+        <span class="reminder">Remind me for an<br />urgent download</span>
+        <form action="#" method="POST" style="float:right">
+          <div class="switch">
+            <input id="switch-1" type="checkbox" class="switch-input" />
+            <label for="switch-1" class="switch-label">Switch</label>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div id="hidden_fields">
+      <div class="group sidebyside">
+        <input type="text" id="hidden_field" name="hidden" required />
+        <span class="highlight"></span> <span class="bar"></span>
+        <label class="name">Set desired efficiency rate (In %)</label>
+      </div>
+      <div class="sidebyside">
+        <button class="setbutton" action="submit">Set</button>
+      </div>
+    </div>
+  </body>
+</html>
